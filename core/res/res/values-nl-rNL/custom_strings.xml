@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2020-2023 PixelOS
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Advanced reboot -->
+    <string name="reboot_to_recovery_title">Herstel</string>
+    <string name="reboot_to_recovery_message">Herstarten naar herstelmodus</string>
+    <string name="reboot_to_bootloader_title">Bootloader</string>
+    <string name="reboot_to_bootloader_message">Herstarten naar bootloader</string>
+    <string name="reboot_title">Herstarten</string>
+    <string name="reboot_message">Systeem herstarten</string>
+    <!-- Button that copies the url to the log of a crashed application -->
+    <string name="aerr_copy">Kopieer crash log URL</string>
+    <string name="url_copy_success">URL succesvol gekopieerd</string>
+    <string name="url_copy_failed">Er is een fout opgetreden tijdens het uploaden van de log naar Memochō</string>
+    <!-- LiveDisplay strings -->
+    <string name="live_display_auto">Automatisch</string>
+    <string name="live_display_auto_summary">Kleurtemperatuur van scherm automatisch aanpassen na zonsondergang en zonsopgang</string>
+    <string name="live_display_off">Uit</string>
+    <string name="live_display_off_summary">Alle wijzigingen uitschakelen</string>
+    <string name="live_display_day">Dag</string>
+    <string name="live_display_day_summary">Gebruik alleen daginstellingen</string>
+    <string name="live_display_night">Nacht</string>
+    <string name="live_display_night_summary">Gebruik alleen nachtinstellingen</string>
+    <string name="live_display_outdoor">Buiten (felle zon)</string>
+    <string name="live_display_outdoor_summary">Alleen instellingen voor buitenshuis gebruiken</string>
+    <string name="live_display_hint">LiveDisplay kan oogvermoeidheid verminderen en helpt u om \'s nachts te slapen. Klik hier om het uit te proberen!</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay uit.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: automatische modus.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: dagstand.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: nachtmodus.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: buiten modus.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay uitgeschakeld.</string>
+    <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay gewijzigd naar automatische modus.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay gewijzigd naar dagstand.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay gewijzigd naar nachtstand.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay gewijzigd naar buiten modus.</string>
+    <!-- Pocket Lock -->
+    <string name="pocket_lock_message_long_press">Houd de aan/uit- knop ingedrukt om te ontgrendelen</string>
+    <string name="pocket_view_title">Broekzakmodus is aan</string>
+    <string name="pocket_view_title_cancel">Om je telefoon te activeren:</string>
+    <string name="pocket_view_top_tag_cancel">Bedek het blauwe gedeelte van je telefoon niet en verwijder eventueel vuil of stof.</string>
+    <string name="pocket_view_top_tag_cancel2">Druk lang op de aan/uit-knop om de broekzakmodus gedwongen te stoppen.</string>
+    <string name="pocket_view_top_tag_number1">1.\u0020</string>
+    <string name="pocket_view_top_tag_number2">2.\u0020</string>
+    <!-- Health interface -->
+    <string name="charging_control_notification_channel">Charging control</string>
+    <string name="charging_control_notification_title">Charging control</string>
+    <string name="charging_control_notification_cancel_once">Cancel</string>
+    <string name="charging_control_notification_content_limit">Battery will be charged to %1$d%%</string>
+    <string name="charging_control_notification_content_limit_reached">Battery is charged to %1$d%%</string>
+    <string name="charging_control_notification_content_target">Battery will be fully charged at %1$s</string>
+    <string name="charging_control_notification_content_target_reached">Battery is charged</string>
+</resources>
